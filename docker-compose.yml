@@ -1,0 +1,6 @@
+services:
+  alpinessh:
+    image: mathieumafille/alpinessh:latest
+    restart: always
+    ports:
+      - 222:22
